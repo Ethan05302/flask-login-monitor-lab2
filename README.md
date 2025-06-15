@@ -45,7 +45,7 @@ AppServiceConsoleLogs
 - Created alert rule when failed login logs exceed threshold.
 - Logic: More than 4 failures in 5 minutes triggers alert.
 - Action Group configured to send email notification.
-
+### Vedio Link: https://youtu.be/-wnqegTtktY
 ## Files Included
 - `app.py`: Flask login service
 - `requirements.txt`: Python dependencies
