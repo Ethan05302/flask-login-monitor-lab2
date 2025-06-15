@@ -1,0 +1,53 @@
+### Failed login #1
+POST https://zhezhang-app.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong1"
+}
+
+### Failed login #2
+POST https://zhezhang-app.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong2"
+}
+
+### Failed login #3
+POST https://zhezhang-app.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong3"
+}
+
+### Failed login #4
+POST https://zhezhang-app.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong4"
+}
+
+### Failed login #5
+POST https://zhezhang-app.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "wrong5"
+}
+
+### Successful login (for comparison)
+POST https://zhezhang-app.azurewebsites.net/login
+Content-Type: application/json
+
+{
+  "username": "admin",
+  "password": "password123"
+}
